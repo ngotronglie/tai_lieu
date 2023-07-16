@@ -1,0 +1,50 @@
+----------------html5 - css3----------------------------
+
+phần 1: Giới thiệu về html5 
+
+p1:  https://www.youtube.com/watch?v=bni22ewf68s&t=1s
+p2:  https://www.youtube.com/watch?v=RMy-ogAk0l4&t=3s
+p3:  https://www.youtube.com/watch?v=RvudHgrBjuE&t=3s
+p4:  https://www.youtube.com/watch?v=Ihwlxfho6oE&t=7s
+
+đồ họa
+p1:  https://www.youtube.com/watch?v=-_d5gD9eSAk&t=20s
+p2:  https://www.youtube.com/watch?v=TzKbl9imzK0&t=34s
+p3:  https://www.youtube.com/watch?v=nnFhPKgWsgM&t=3s
+p4:  https://www.youtube.com/watch?v=Qk6EQiswazo&t=1s
+
+api
+
+p1:  https://www.youtube.com/watch?v=ComziNLIBlM&t=116s
+p2:  https://www.youtube.com/watch?v=6UEfkzwnw_4&t=1s
+p3:  https://www.youtube.com/watch?v=gmH6RT6ffAA&t=3s
+p4:  https://www.youtube.com/watch?v=_qG_arMgrwA&t=2s
+
+css3
+p1: https://www.youtube.com/watch?v=R25cEhmqCs0&t=6s
+p2: https://www.youtube.com/watch?v=Da615tBccPI&t=354s
+p3: https://www.youtube.com/watch?v=uOqzq0kf2GM
+p4: https://www.youtube.com/watch?v=frYcXi2sckE&t=6s
+
+hiệu ứng màu sắc
+p1: https://www.youtube.com/watch?v=0Sjdq47RnoQ&t=26s
+p2: https://www.youtube.com/watch?v=29BsS1vrb7I
+p3: https://www.youtube.com/watch?v=v2vOumP3G-Y
+
+css animation
+
+p1: https://www.youtube.com/watch?v=0vnZy9YJEcY&t=1s
+p2: https://www.youtube.com/watch?v=DO3gIW7NHC4&t=3s
+p3: https://www.youtube.com/watch?v=rRp73t1eaJI&t=2s
+p4: https://www.youtube.com/watch?v=2zdUj4-Ews8
+
+display trong css
+p1: https://www.youtube.com/watch?v=sX8Y1ndXs8w&t=12s
+p2: https://www.youtube.com/watch?v=xqHUl0W7UnQ&t=1s
+p3: https://www.youtube.com/watch?v=N2jiniZpOQU&t=20s
+
+responsive web design
+p1: https://www.youtube.com/watch?v=E8aLnXlGYH8&t=2s
+p2: https://www.youtube.com/watch?v=7xLCuJzLn-U&t=3s
+p3: https://www.youtube.com/watch?v=JIzAcQlvTF4&t=8s
+
