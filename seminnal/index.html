@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootrap</title>
+    <link
+      rel="stylesheet"
+      href="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <div class="container bg-warning">
+      <h1 class="text-center text-success">hello bootstrap-5</h1>
+    </div>
+    <div class="container mt-5">
+      <button class="btn btn-danger">hello</button>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg mt-2 bg-warning">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- end nav -->
+      <ul class="nav nav-tabs mt-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#home-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="home-tab-pane"
+            aria-selected="true"
+          >
+            Cập nhật
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#profile-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="profile-tab-pane"
+            aria-selected="false"
+          >
+            danh sách
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="home-tab-pane"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+          tabindex="0"
+        >
+          <div class="card mt-1">
+            <h5 class="card-header">Nhập thông tin sinh viên</h5>
+            <div class="card-body">
+              <form action="">
+                <label class="form-label" for="">Họ tên giảng viên</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  required
+                  placeholder="nhập họ tên giảng viên"
+                />
+                <label class="form-label" for="">Email giảng viên</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  required
+                  placeholder="nhập email giảng viên"
+                />
+                <label class="form-label" for="">Giới tính</label>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    nam
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    nữ
+                  </label>
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Example textarea</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="mt-3">
+                  <label for="formFile" class="form-label">Ảnh</label>
+                  <input class="form-control" type="file" id="formFile" />
+                </div>
+                <div class="mt-3 text-center">
+                  <button type="button" class="btn btn-outline-secondary">
+                    reset
+                  </button>
+                  <button type="button" class="btn btn-success">Lưu</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="profile-tab-pane"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+          tabindex="0"
+        >
+          <div class="card">
+            <div class="card-header">Danh sách giảng viên</div>
+            <div class="card-body">
+              <table class="table table-light table-striped">
+                <thead>
+                  <th>stt</th>
+                  <th>ảnh</th>
+                  <th>tên</th>
+                  <th>trạng thái</th>
+                  <th>thao tác</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>
+                      <img src="" alt="anh" style="width: 100px" />
+                    </td>
+                    <td>Ngô trọng Liêm</td>
+                    <td>
+                      <span class="badge bg-success">đang hoạt động</span>
+                    </td>
+                    <td>
+                      <div
+                        class="btn-group"
+                        role="group"
+                        aria-label="Basic mixed styles example"
+                      >
+                        <button type="button" class="btn btn-danger">
+                          view
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                          edit
+                        </button>
+                        <button type="button" class="btn btn-success">
+                          delete
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>
+                      <img src="" alt="anh" style="width: 100px" />
+                    </td>
+                    <td>Ngô trọng Liêm</td>
+                    <td>
+                      <span class="badge bg-success">đang hoạt động</span>
+                    </td>
+                    <td>
+                      <div
+                        class="btn-group"
+                        role="group"
+                        aria-label="Basic mixed styles example"
+                      >
+                        <button type="button" class="btn btn-danger">
+                          view
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                          edit
+                        </button>
+                        <button type="button" class="btn btn-success">
+                          delete
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>
+                      <img src="" alt="anh" style="width: 100px" />
+                    </td>
+                    <td>Ngô trọng Liêm</td>
+                    <td>
+                      <span class="badge bg-success">đang hoạt động</span>
+                    </td>
+                    <td>
+                      <div
+                        class="btn-group"
+                        role="group"
+                        aria-label="Basic mixed styles example"
+                      >
+                        <button type="button" class="btn btn-danger">
+                          view
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                          edit
+                        </button>
+                        <button type="button" class="btn btn-success">
+                          delete
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="card-footer">
+                <p class="card-text">danh sách giảng viên cntt</p>
+              </div>
+              <nav aria-label="Page navigation example" class="mt-3 float-end">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+  </body>
+</html>
